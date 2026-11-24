@@ -88,8 +88,7 @@ reference length.
 
 ## License
 
-- Model and test set (`models/`, `test-set/`: page images, bounding boxes, transcriptions):
-  [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Please note: although the official license is
+[CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Please note: although the official license is
   limited to non-commercial use, users may contact us to obtain a free license for commercial use in the context of a
   small business initiative.
 
