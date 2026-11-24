@@ -10,9 +10,9 @@ official `heb` model). Released with its test set, a benchmark of 1,120 manually
 | Best of the 31 other public Hebrew Tesseract models (Boro11204 `heb_rashi7`) | 2.98% | 11.86% |
 | Best of 8 frontier LLMs (Claude Fable 5.2) | 2.90% | 8.46% |
 
-CER/WER ignore punctuation and niqqud (see [Evaluation](#evaluation)). Details: the technical report (coming soon).
+CER/WER ignore punctuation and niqqud (see [Evaluation](#evaluation)). For details see our technical report here: https://arxiv.org/abs/2611.29760
 
-Try it online: https://rashiocr.dicta.org.il/
+Try it online in our interactive site: https://rashiocr.dicta.org.il/
 
 ## Contents
 
@@ -92,17 +92,17 @@ reference length.
   [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Please note: although the official license is
   limited to non-commercial use, users may contact us to obtain a free license for commercial use in the context of a
   small business initiative.
-- Code (`*.py`): MIT.
 
 ## Citation
 
 ```bibtex
-@misc{shmidman2026dictarashi,
-      title={DictaRashi: A State-of-the-Art OCR Model For Rashi Script},
+@misc{shmidman2026dictarashistateoftheartocrmodel,
+      title={DictaRashi: A State-of-the-Art OCR Model For Rashi Script}, 
       author={Ometz Shmidman and Yonah Taurog and Aryeh Sanders and Shlomo Bluth and Moshe Koppel and Joshua Geudalia and Avi Shmidman},
       year={2026},
-      eprint={Coming soon},
+      eprint={2611.29760},
       archivePrefix={arXiv},
-      primaryClass={cs.CL}
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2611.29760}, 
 }
 ```
