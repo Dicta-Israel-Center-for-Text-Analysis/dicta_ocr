@@ -18,11 +18,11 @@ Try it online in our interactive site: https://rashiocr.dicta.org.il/
 
 | Path | What |
 |---|---|
-| `models/DictaRashi.traineddata` | the model (float, final checkpoint; no word list) |
-| `test-set/images/*.png` | 14 scanned test pages, 300 dpi grayscale |
-| `test-set/lines.json` | one entry per ground-truth line: bounding box + transcription |
-| `ocr_example.py` | run the model from Python (pytesseract) |
-| `evaluate.py` | reproduce the CER/WER above |
+| `models/DictaRashi.traineddata` | Our new Tesseract model |
+| `test-set/images/*.png` | Test set of scanned Rashi-script pages |
+| `test-set/lines.json` | Ground-truth transcriptions of each line with bounding box coordinates |
+| `ocr_example.py` | Code to run the model via Python (pytesseract) |
+| `evaluate.py` | Code to run the test set  |
 | `SHA256SUMS` | checksums of the model and test files |
 
 ## Usage
