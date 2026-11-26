@@ -6,9 +6,9 @@ official `heb` model). Released with its test set, a benchmark of 1,120 manually
 
 | Model (1,120 test lines) | CER | WER |
 |---|---|---|
-| **DictaRashi** | **0.86%** | **3.38%** |
-| Best of the 31 other public Hebrew Tesseract models (Boro11204 `heb_rashi7`) | 2.98% | 11.86% |
-| Best of 8 frontier LLMs (Claude Fable 5.2) | 2.90% | 8.46% |
+| **DictaRashi** | **0.62%** | **2.57%** |
+| Best of the 31 other public Hebrew Tesseract models (Boro11204 `heb_rashi7`) | 2.99% | 12.00% |
+| Best of 8 frontier LLMs (Claude Fable 5.2) | 2.70% | 7.79% |
 
 CER/WER ignore punctuation and niqqud (see [Evaluation](#evaluation)). For details see our technical report here: https://arxiv.org/abs/2611.29760
 
